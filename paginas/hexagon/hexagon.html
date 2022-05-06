@@ -194,5 +194,16 @@
             <div class="hexagon"></div>
         </div>
     </div>
+    <script>
+        var curser = document.querySelector(".curser");
+        document.addEventListener("mouseover", function(e){
+            var X = e.clientX
+            var Y = e.clientY
+
+            curser.style.left = X + "px"
+            curser.style.top = Y + "px"
+
+        })
+    </script>
 </body>
 </html>
