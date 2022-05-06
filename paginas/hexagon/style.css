@@ -4,6 +4,22 @@ body{
     overflow: hidden;
     min-height: 100vh;
 }
+.conteudo-voltar{
+    width: 40px;
+    display: inline-block;
+    background: transparent;
+}
+.voltar{
+    border: none;
+    background: aquamarine;
+    text-decoration: none;
+    color: black;
+}
+.voltar a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
 .conteiner{
     position: relative;
     height: 100vh;
