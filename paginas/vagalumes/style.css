@@ -1,4 +1,15 @@
 
+.conteudo-voltar{
+    width: 40px;
+    display: inline-block;
+    background: transparent;
+}
+.voltar{
+    border: none;
+    background: aquamarine;
+    text-decoration: none;
+    color: black;
+}
 section{
     position: relative;
     width: 100%;
