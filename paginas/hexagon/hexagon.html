@@ -198,15 +198,28 @@
         </div>
     </div>
     <script>
-        var curser = document.querySelector(".curser");
-        document.addEventListener("mouseover", function(e){
-            var X = e.clientX
-            var Y = e.clientY
+        if(window.screen.availWidth == 480 || window.screen.availWidth < 450){
+            var curser = document.querySelector(".curser");
+            document.addEventListener("touchmove", function(e){
+                var X = e.clientX
+                var Y = e.clientY
 
-            curser.style.left = X + "px"
-            curser.style.top = Y + "px"
+                curser.style.left = X + "px"
+                curser.style.top = Y + "px"
 
-        })
+            })
+        }else{
+            var curser = document.querySelector(".curser");
+            document.addEventListener("mouseover", function(e){
+                var X = e.clientX
+                var Y = e.clientY
+
+                curser.style.left = X + "px"
+                curser.style.top = Y + "px"
+
+            })
+        }
+
     </script>
 </body>
 </html>
