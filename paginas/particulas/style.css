@@ -116,3 +116,21 @@ body{
         transform: rotate(0deg);
     }
 }
+
+@media screen and (max-width: 768px){
+    .glowing{
+        position: relative;
+        min-width: 250px;
+        height: 250px;
+        margin: -75px;
+        transform-origin: right;
+        animation: colorChange 5s linear infinite;
+    }
+    .glowing span{
+        position: absolute;
+        top: calc(80px * var(--i));
+        left: calc(80px * var(--i));
+        bottom: calc(80px * var(--i));
+        right: calc(80px * var(--i));
+    }
+}

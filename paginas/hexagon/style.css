@@ -67,3 +67,20 @@ body:hover .curser{
     background: radial-gradient(circle, rgba(0,255,0,1) 23% , rgba(0,0,0,1) 100%);
     visibility: visible;
 }
+
+@media screen and (max-width:480px){
+    .hexagon{
+        width: 70px;
+        height: 90px;
+        margin: 1px;
+    }
+    .row{
+    display: inline-flex;
+    margin-top: -32px;
+    margin-left: -40px;
+    }
+    .curser{
+        width: 250px;
+        height: 250px;
+    }
+}

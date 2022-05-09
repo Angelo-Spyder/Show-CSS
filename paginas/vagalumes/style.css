@@ -57,3 +57,11 @@ span:hover::before{
     transform: scale(1);
     transition: 0s;
 }
+/*Mobile*/
+
+@media screen and (max-width: 768px){
+    span{
+        width: 30px;
+        height: 30px;
+    }
+}
