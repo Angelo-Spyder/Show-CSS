@@ -198,9 +198,9 @@
         </div>
     </div>
     <script>
-        if(window.screen.availWidth == 480 || window.screen.availWidth < 450){
+        if(window.screen.availWidth < 768){
             var curser = document.querySelector(".curser");
-            document.addEventListener("touchmove", function(e){
+            document.addEventListener("click", function(e){
                 var X = e.clientX
                 var Y = e.clientY
 
