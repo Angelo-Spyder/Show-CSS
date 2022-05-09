@@ -8,6 +8,23 @@ body{
     background: #000;
     overflow: hidden; 
 }
+.conteudo-voltar{
+    position: absolute;
+    width: 40px;
+    display: inline-block;
+    background: transparent;
+}
+.voltar{
+    border: none;
+    background: rgb(111, 2, 201);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.voltar a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 .glowing{
     position: relative;
     min-width: 750px;
