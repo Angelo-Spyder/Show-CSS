@@ -28,13 +28,13 @@ section{
         filter: hue-rotate(360deg);
     }
 }
-span{
+.pontos{
     position: relative;
     width: 40px;
     height: 40px;
     display: block;
 }
-span::before{
+.pontos::before{
     content: "";
     position: absolute;
     top: 0;
@@ -53,7 +53,7 @@ span::before{
     pointer-events: none;
     transition: 2s;
 }
-span:hover::before{
+.pontos:hover::before{
     transform: scale(1);
     transition: 0s;
 }
