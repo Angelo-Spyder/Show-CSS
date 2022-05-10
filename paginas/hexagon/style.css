@@ -70,14 +70,14 @@ body:hover .curser{
 
 @media screen and (max-width:480px){
     .hexagon{
-        width: 70px;
-        height: 90px;
+        width: 80px;
+        height: 100px;
         margin: 1px;
     }
     .row{
-    display: inline-flex;
-    margin-top: -32px;
-    margin-left: -40px;
+        display: inline-flex;
+        margin-top: -32px;
+        margin-left: -40px;
     }
     .curser{
         width: 250px;

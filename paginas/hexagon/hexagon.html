@@ -198,11 +198,19 @@
         </div>
     </div>
     <script>
-        if(window.screen.availWidth < 768){
+        if(window.screen.width < 768){
             var curser = document.querySelector(".curser");
-            document.addEventListener("click", function(e){
-                var X = e.clientX
-                var Y = e.clientY
+            document.addEventListener("touchmove", function(e){
+                var X = e.touches[0].clientX
+                var Y = e.touches[0].clientY
+
+                curser.style.left = X + "px"
+                curser.style.top = Y + "px"
+
+            })
+            document.addEventListener("touchstart", function(e){
+                var X = e.touches[0].clientX
+                var Y = e.touches[0].clientY
 
                 curser.style.left = X + "px"
                 curser.style.top = Y + "px"
